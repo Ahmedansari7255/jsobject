@@ -54,10 +54,10 @@ var video={
     name:'js class',
     play: function(){
         console.log('video played')
-    }
-
+    },
+    time:[10,20,30]
 }
 
 console.log(video.name)
-console.log(video.play)
+console.log(video.play())
 
